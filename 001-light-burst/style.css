@@ -1,31 +1,31 @@
 body {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100vh;
-   background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
 }
 
 button {
-   font-family: 'open sans';
-   font-size: 20px;
-   font-weight: 600;
-   line-height: 1;
-   padding: 1em;
-   width: 200px;
-   height: 200px;
-   border: 1px solid red;
-   border-radius: 50%;
-   color: red;
-   background-color: transparent;
-   cursor: pointer;
+    font-family: 'open sans';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 1em;
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 button:hover {
-   box-shadow: 0 0 30vw 40vw rgba(241,244,0,0);
-   animation: animate 3s infinite;
+    box-shadow: 0 0 30vw 40vw rgba(241,244,0,0);
+    animation: animate 3s infinite;
 }
 
 @keyframes animate {
-   45%, 55% { box-shadow: 0 0 0 3px rgba(241,244,0,1); }
+    45%, 55% { box-shadow: 0 0 0 3px rgba(241,244,0,1); }
 }
