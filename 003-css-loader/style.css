@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background: #ddd;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 8vmin;
+    margin: 0 0 70px;
+}
+
+svg {
+    width: 220px;
+}
+
+.eye-outer {
+    fill: none;
+    stroke-width: 5;
+    stroke: #000;
+    stroke-dasharray: 315;
+    stroke-dashoffset: 0;
+    animation: draw 2s ease-in infinite reverse;
+}
+
+@keyframes draw {
+    100% { stroke-dashoffset: 630; }
+}
+
+.eye-inner {
+    fill: #000;
+    animation: blink 5s ease-in infinite;
+}
+
+@keyframes blink {
+    0%, 3%, 5%, 8%, 100% { opacity: 1 }
+    1%, 7% { opacity: 0 }
+}
+
+.eye-glow {
+    fill: #ccc;
+}
+
+#pupils {
+    transform: translate(15px, 15px);
+}
