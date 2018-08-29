@@ -6,3 +6,4 @@ Each of the animations has it's own mp4 demo in their respective folders. Other 
 001 - CSS Light Burst - [Click here](https://codepen.io/mpsinghk/full/JBVQbp/)<br>
 002 - CSS Wheel Spinner - [Click here](https://codepen.io/mpsinghk/full/mGyvMg/)<br>
 003 - CSS Loader - [Click here](https://codepen.io/mpsinghk/full/WgvKeG/)<br>
+004 - CSS Rotate - [Click here](https://codepen.io/mpsinghk/full/bxeJBE/)<br>
