@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+svg {
+    width: 50%;
+    min-width: 250px;
+    font-family: Montserrat, sans-serif;
+}
+
+.r {
+    width: 150px;
+    height: 50px;
+    fill: transparent;
+    stroke: #ff0;
+    stroke-width: 1px;
+    stroke-dasharray: 2 3;
+    stroke-dashoffset: 0;
+    animation: march 30s linear infinite reverse;
+}
+
+.t {
+    font-size: 10px;
+    fill: #ff0;
+}
+
+@keyframes march {
+    100% { stroke-dashoffset: 400; }
+}
