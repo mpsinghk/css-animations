@@ -8,3 +8,4 @@ Each of the animations has it's own mp4 demo in their respective folders. Other 
 003 - CSS Loader - [Click here](https://codepen.io/mpsinghk/full/WgvKeG/)<br>
 004 - CSS Rotate - [Click here](https://codepen.io/mpsinghk/full/bxeJBE/)<br>
 005 - Menu Icon - [Click here](https://codepen.io/mpsinghk/full/GXqjrR/)<br>
+006 - Marching Ants - [Click here](https://codepen.io/mpsinghk/full/XPeLzR/)<br>
